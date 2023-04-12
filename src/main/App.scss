@@ -1,0 +1,20 @@
+@import "./Color.scss";
+.DButton {
+    font-family: main_bold;
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: $MainColor;
+    color: $White;
+    font-size: 16px;
+    border: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.DButton2 {
+    @extend .DButton;
+    background-color: transparent;
+    border: 2px solid #cbbcbc;
+}
+.SectionPadder {
+    padding: 60px 0;
+}

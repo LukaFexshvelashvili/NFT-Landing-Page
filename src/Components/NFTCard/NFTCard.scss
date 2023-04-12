@@ -1,0 +1,83 @@
+@import "../../main/Color.scss";
+
+.NFTCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 15px;
+    width: 270px;
+    border-radius: 15px;
+    border: 1px solid $StrokeCard;
+    background: $White;
+    overflow: hidden;
+    &:hover {
+        .CardImage {
+            height: 220px;
+        }
+        .CardButton {
+            bottom: 15px;
+        }
+    }
+    .CardImage {
+        height: 290px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .CardInfo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        margin: 5px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-family: main_bold;
+        .ethIcon {
+            position: absolute;
+            bottom: 5px;
+            right: 0;
+        }
+        h3 {
+            color: $Bg;
+            font-size: 16px;
+        }
+        p {
+            font-family: main_regular;
+            color: $DescText_;
+            font-size: 14px;
+        }
+        h2 {
+            color: $Bg;
+            font-size: 18px;
+        }
+    }
+    .CardButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        transition: 0.3s;
+        left: 0;
+        .CollectNow {
+            font-family: main_bold;
+            height: 45px;
+            width: 90%;
+            border-radius: 10px;
+            background-color: $Bg;
+            color: $White;
+            font-size: 16px;
+            border: 0;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+                background: #111111;
+            }
+        }
+    }
+}

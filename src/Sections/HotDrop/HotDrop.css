@@ -1,0 +1,42 @@
+.Title {
+  text-align: center;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-family: main_bold;
+}
+
+.HotDrop {
+  background-color: #f2ede3;
+}
+.HotDrop .CategoryRow {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.HotDrop .CategoryRow .CategoryChoose {
+  font-family: main_bold;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #000000;
+  background-color: #e6e3e3;
+  border-radius: 15px;
+  border: 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.HotDrop .CategoryRow .CategoryActive {
+  background-color: #3417ff;
+  color: #ffffff;
+}
+.HotDrop .NFTRow {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,85 @@
+.Starter {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 850px;
+}
+
+.SectionSplitter {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  height: 620px;
+}
+.SectionSplitter .WelcomeSide {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  position: relative;
+  padding-top: 30px;
+}
+.SectionSplitter .WelcomeSide h1 {
+  color: #ffffff;
+  font-family: main_bold;
+  font-size: 78px;
+  line-height: 80px;
+}
+.SectionSplitter .WelcomeSide h1 span {
+  color: #3417ff;
+}
+.SectionSplitter .WelcomeSide p {
+  font-family: main_regular;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #dddfdd;
+}
+.SectionSplitter .WelcomeSide .StarterButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.SectionSplitter .WelcomeSide .StarterButtons button {
+  font-size: 16px;
+}
+.SectionSplitter .WelcomeSide .StarterButtons .ConnectWallet {
+  border: 2px solid #3417ff;
+}
+.SectionSplitter .WelcomeSide .Details {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+  position: absolute;
+  bottom: 0;
+}
+.SectionSplitter .WelcomeSide .Details .DetC .DetName {
+  font-family: main_regular;
+  font-size: 18px;
+  color: #e6e6e6;
+  letter-spacing: 1px;
+}
+.SectionSplitter .WelcomeSide .Details .DetC .DetValue {
+  font-family: main_bold;
+  letter-spacing: 2px;
+  color: #3417ff;
+  font-size: 48px;
+}
+.SectionSplitter .ImageSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.SectionSplitter .ImageSide img {
+  height: 620px;
+}
+.SectionSplitter .ImageSide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+}

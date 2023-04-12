@@ -1,0 +1,43 @@
+@import "../../main/Color.scss";
+.Title {
+    text-align: center;
+    color: $Bg;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: main_bold;
+}
+
+.HotDrop {
+    background-color: $Bg2;
+    .CategoryRow {
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        .CategoryChoose {
+            font-family: main_bold;
+            padding: 10px 30px;
+            font-size: 16px;
+            color: $Bg;
+            background-color: $ButtonBg;
+            border-radius: 15px;
+            border: 0;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .CategoryActive {
+            background-color: $MainColor;
+            color: $White;
+        }
+    }
+    .NFTRow {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}

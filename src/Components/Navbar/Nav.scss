@@ -1,0 +1,40 @@
+@import "../../main/Color.scss";
+nav {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    .contentContainer {
+        display: flex;
+        justify-content: space-between;
+        .LogoSide {
+            font-family: main_bold;
+            letter-spacing: 1px;
+            font-size: 28px;
+            cursor: pointer;
+            color: $White;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            li {
+                font-family: main_regular;
+                list-style: none;
+                color: $NavDesc;
+                font-size: 18px;
+                letter-spacing: 2px;
+                cursor: pointer;
+            }
+            .liActive {
+                font-family: main_bold;
+                color: $White;
+            }
+        }
+        .ButtonSide {
+            button {
+                font-size: 16px;
+            }
+        }
+    }
+}

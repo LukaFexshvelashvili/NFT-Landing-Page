@@ -1,9 +1,46 @@
+@import "./main/Color.scss";
+
+@font-face {
+    font-family: main_bold;
+    src: url("./Fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: main_regular;
+    src: url("./Fonts/Poppins-Regular.ttf");
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: $Bg;
+}
 a {
     color: unset;
     text-decoration: none;
+}
+.contentContainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1900px) {
+    .contentContainer {
+        width: 1500px;
+    }
+}
+@media (max-width: 1900px) {
+    .contentContainer {
+        width: 98%;
+    }
+}
+.g-6 {
+    width: 50%;
+}
+img {
+    user-select: none;
+    pointer-events: none;
 }

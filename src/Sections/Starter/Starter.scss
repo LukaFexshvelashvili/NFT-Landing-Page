@@ -1,0 +1,89 @@
+@import "../../main/Color.scss";
+.Starter {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 850px;
+}
+.SectionSplitter {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 620px;
+    .WelcomeSide {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+        position: relative;
+        padding-top: 30px;
+        h1 {
+            color: $White;
+            font-family: main_bold;
+            font-size: 78px;
+            line-height: 80px;
+            span {
+                color: $MainColor;
+            }
+        }
+        p {
+            font-family: main_regular;
+            font-size: 18px;
+            letter-spacing: 1px;
+            color: $DescText;
+        }
+        .StarterButtons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            button {
+                font-size: 16px;
+            }
+            .ConnectWallet {
+                border: 2px solid $MainColor;
+            }
+        }
+        .Details {
+            display: flex;
+            align-items: start;
+            gap: 40px;
+            position: absolute;
+            bottom: 0;
+            .DetC {
+                .DetName {
+                    font-family: main_regular;
+                    font-size: 18px;
+                    color: $DetC;
+                    letter-spacing: 1px;
+                }
+                .DetValue {
+                    font-family: main_bold;
+                    letter-spacing: 2px;
+
+                    color: $MainColor;
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+
+    .ImageSide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        img {
+            height: 620px;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

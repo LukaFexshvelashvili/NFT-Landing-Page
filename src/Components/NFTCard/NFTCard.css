@@ -1,0 +1,79 @@
+.NFTCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 15px;
+  width: 270px;
+  border-radius: 15px;
+  border: 1px solid #d7d0d0;
+  background: #ffffff;
+  overflow: hidden;
+}
+.NFTCard:hover .CardImage {
+  height: 220px;
+}
+.NFTCard:hover .CardButton {
+  bottom: 15px;
+}
+.NFTCard .CardImage {
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.NFTCard .CardInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 5px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: main_bold;
+}
+.NFTCard .CardInfo .ethIcon {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.NFTCard .CardInfo h3 {
+  color: #000000;
+  font-size: 16px;
+}
+.NFTCard .CardInfo p {
+  font-family: main_regular;
+  color: #656d66;
+  font-size: 14px;
+}
+.NFTCard .CardInfo h2 {
+  color: #000000;
+  font-size: 18px;
+}
+.NFTCard .CardButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+  transition: 0.3s;
+  left: 0;
+}
+.NFTCard .CardButton .CollectNow {
+  font-family: main_bold;
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  border: 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.NFTCard .CardButton .CollectNow:hover {
+  background: #111111;
+}
