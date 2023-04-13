@@ -6,6 +6,7 @@ nav {
 nav .contentContainer {
   display: flex;
   justify-content: space-between;
+  transition: 1s;
 }
 nav .contentContainer .LogoSide {
   font-family: main_bold;
@@ -27,6 +28,26 @@ nav .contentContainer ul li {
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+nav .contentContainer ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  border-radius: 2px;
+  background: #ffffff;
+  width: 0%;
+  transition: 0.2s;
+}
+nav .contentContainer ul li:hover:before {
+  width: 100%;
+}
+nav .contentContainer ul li:hover {
+  color: white;
 }
 nav .contentContainer ul .liActive {
   font-family: main_bold;

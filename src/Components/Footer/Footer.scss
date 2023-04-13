@@ -1,0 +1,27 @@
+@import "../../main/Color.scss";
+.Footer {
+    padding: 80px 0;
+    .contentContainer {
+        display: flex;
+        color: $White;
+        justify-content: space-between;
+        .FCol {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 30%;
+            .FStart {
+                cursor: pointer;
+                font-family: $White;
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-family: main_bold;
+            }
+            .FDesc {
+                cursor: pointer;
+                font-family: main_regular;
+                color: $White___;
+            }
+        }
+    }
+}

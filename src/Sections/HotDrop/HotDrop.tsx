@@ -39,7 +39,13 @@ export default function HotDrop() {
         </div>
         <div className="NFTRow">
           {NFTs.map((e: NFTCard, i: number) => (
-            <NFTCard Image={e.Image} Name={e.Name} User={e.User} Eth={e.Eth} />
+            <NFTCard
+              key={i}
+              Image={e.Image}
+              Name={e.Name}
+              User={e.User}
+              Eth={e.Eth}
+            />
           ))}
         </div>
       </div>

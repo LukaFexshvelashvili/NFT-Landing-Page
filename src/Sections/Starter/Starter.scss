@@ -18,6 +18,8 @@
         height: 100%;
         position: relative;
         padding-top: 30px;
+        transition: 1s;
+
         h1 {
             color: $White;
             font-family: main_bold;
@@ -72,6 +74,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: 1s;
         position: relative;
         img {
             height: 620px;

@@ -6,6 +6,7 @@ nav {
     .contentContainer {
         display: flex;
         justify-content: space-between;
+        transition: 1s;
         .LogoSide {
             font-family: main_bold;
             letter-spacing: 1px;
@@ -25,6 +26,26 @@ nav {
                 font-size: 18px;
                 letter-spacing: 2px;
                 cursor: pointer;
+                transition: 0.2s;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    height: 2px;
+                    border-radius: 2px;
+                    background: $White;
+                    width: 0%;
+                    transition: 0.2s;
+                }
+                &:hover:before {
+                    width: 100%;
+                }
+                &:hover {
+                    color: white;
+                }
             }
             .liActive {
                 font-family: main_bold;

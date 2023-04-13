@@ -1,0 +1,38 @@
+.NFTBanner {
+  position: relative;
+  height: 490px;
+}
+.NFTBanner .InfoS {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.NFTBanner .InfoS h3 {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: main_bold;
+}
+.NFTBanner .InfoS p {
+  color: #656d66;
+  font-family: main_regular;
+}
+.NFTBanner .PriceBuy {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.NFTBanner .PriceBuy p {
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: main_bold;
+}
+.NFTBanner .PriceBuy button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,57 @@
+.titleSeller {
+  color: #ffffff;
+  max-width: 700px;
+  margin: auto;
+}
+
+.UsersGet {
+  margin-top: 80px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.UsersGet .UsersRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 110%;
+}
+
+.CommunityB {
+  margin-top: 150px;
+}
+
+.CommunityBlock {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #3417ff;
+}
+.CommunityBlock h1 {
+  color: #ffffff;
+  font-family: main_bold;
+  letter-spacing: 1px;
+}
+.CommunityBlock p {
+  font-family: main_regular;
+  color: #eae7e7;
+}
+.CommunityBlock button {
+  display: inline-block;
+  background: #ffffff;
+  color: #3417ff;
+}
+.CommunityBlock button:hover {
+  background: #eae7e7;
+}

@@ -1,3 +1,7 @@
+.App {
+  overflow-x: hidden;
+}
+
 .DButton, .DButton2 {
   font-family: main_bold;
   padding: 10px 35px;
@@ -8,11 +12,19 @@
   border: 0;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.2s;
+}
+.DButton:hover, .DButton2:hover {
+  background-color: #4428ff;
 }
 
 .DButton2 {
   background-color: transparent;
   border: 2px solid #cbbcbc;
+}
+.DButton2:hover {
+  background-color: #3417ff;
+  border: 2px solid #3417ff;
 }
 
 .SectionPadder {

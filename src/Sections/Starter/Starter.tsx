@@ -1,12 +1,14 @@
 import "./Starter.css";
 import NFTImage from "../../Images/Background/BgNFT.png";
-
-export default function Starter() {
+interface Anim {
+  Anims: number;
+}
+export default function Starter({ Anims }: Anim) {
   return (
     <div className="Starter SectionPadder">
       <div className="contentContainer">
         <div className="SectionSplitter">
-          <div className="WelcomeSide g-6">
+          <div className={`WelcomeSide g-6${Anims ? " anim3" : ""}`}>
             <h1>
               Find Your Best Meme <span>NFTs</span>
             </h1>
@@ -30,7 +32,7 @@ export default function Starter() {
               </div>
             </div>
           </div>
-          <div className="ImageSide g-6">
+          <div className={`ImageSide g-6 ${Anims ? " anim4" : ""}`}>
             <img src={NFTImage} alt="NFT Image" />
           </div>
         </div>

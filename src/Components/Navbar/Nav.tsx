@@ -1,9 +1,12 @@
 import "./Nav.css";
+interface Anim {
+  Anims: number;
+}
 
-export default function Nav() {
+export default function Nav({ Anims }: Anim) {
   return (
     <nav>
-      <div className="contentContainer">
+      <div className={`contentContainer${Anims ? " anim1" : ""}`}>
         <div className="LogoSide">Bravay</div>
         <ul>
           <li className="liActive">Home</li>

@@ -1,4 +1,7 @@
 @import "./Color.scss";
+.App {
+    overflow-x: hidden;
+}
 .DButton {
     font-family: main_bold;
     padding: 10px 35px;
@@ -9,11 +12,19 @@
     border: 0;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        background-color: #4428ff;
+    }
 }
 .DButton2 {
     @extend .DButton;
     background-color: transparent;
     border: 2px solid #cbbcbc;
+    &:hover {
+        background-color: $MainColor;
+        border: 2px solid $MainColor;
+    }
 }
 .SectionPadder {
     padding: 60px 0;

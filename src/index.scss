@@ -8,6 +8,22 @@
     font-family: main_regular;
     src: url("./Fonts/Poppins-Regular.ttf");
 }
+.anim1 {
+    transform: translateY(-100px);
+    opacity: 0;
+}
+.anim2 {
+    transform: translateY(200px);
+    opacity: 0;
+}
+.anim3 {
+    transform: translateX(-300px);
+    opacity: 0;
+}
+.anim4 {
+    transform: translateX(300px);
+    opacity: 0;
+}
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +31,13 @@
 }
 body {
     background-color: $Bg;
+}
+::-webkit-scrollbar {
+    background-color: $Bg_;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $MainColor;
 }
 a {
     color: unset;

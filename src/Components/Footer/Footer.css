@@ -1,0 +1,26 @@
+.Footer {
+  padding: 80px 0;
+}
+.Footer .contentContainer {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.Footer .contentContainer .FCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 30%;
+}
+.Footer .contentContainer .FCol .FStart {
+  cursor: pointer;
+  font-family: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: main_bold;
+}
+.Footer .contentContainer .FCol .FDesc {
+  cursor: pointer;
+  font-family: main_regular;
+  color: rgba(232, 232, 232, 0.6862745098);
+}

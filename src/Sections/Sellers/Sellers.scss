@@ -1,0 +1,56 @@
+@import "../../main/Color.scss";
+
+.titleSeller {
+    color: $White;
+    max-width: 700px;
+    margin: auto;
+}
+.UsersGet {
+    margin-top: 80px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .UsersRow {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        width: 110%;
+    }
+}
+.CommunityB {
+    margin-top: 150px;
+}
+.CommunityBlock {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 30px;
+    color: $White;
+    text-align: center;
+    background: $MainColor;
+    h1 {
+        color: $White;
+        font-family: main_bold;
+        letter-spacing: 1px;
+    }
+    p {
+        font-family: main_regular;
+        color: $White__;
+    }
+    button {
+        display: inline-block;
+        background: $White;
+        color: $MainColor;
+        &:hover {
+            background: $White__;
+        }
+    }
+}

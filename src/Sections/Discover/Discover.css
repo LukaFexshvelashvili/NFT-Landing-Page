@@ -1,0 +1,28 @@
+.DiscTitle {
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-family: main_bold;
+  text-align: start;
+}
+
+.FilterSwap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.FilterSwap .FRow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.NFTBannerRow {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
