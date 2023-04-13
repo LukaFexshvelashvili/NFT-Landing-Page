@@ -74,7 +74,9 @@
   position: relative;
 }
 .SectionSplitter .ImageSide img {
-  height: 620px;
+  max-height: 620px;
+  max-width: 470px;
+  width: 90%;
 }
 .SectionSplitter .ImageSide::before {
   content: "";

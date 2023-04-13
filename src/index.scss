@@ -67,3 +67,103 @@ img {
     user-select: none;
     pointer-events: none;
 }
+@media (max-width: 1065px) {
+    .g-6 {
+        width: 100%;
+    }
+
+    .Starter {
+        height: auto;
+    }
+    .SectionSplitter {
+        height: auto;
+        flex-direction: column;
+        gap: 50px;
+        .WelcomeSide {
+            padding-bottom: 150px;
+            padding-top: 150px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 805px) {
+    .FilterSwap {
+        justify-content: center;
+    }
+    .FRow {
+        justify-content: center;
+    }
+}
+@media (max-width: 780px) {
+    .Footer .contentContainer {
+        flex-direction: column;
+        gap: 50px;
+        .FCol {
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 680px) {
+    .contentContainer {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    nav .contentContainer {
+        position: fixed;
+        height: 100%;
+        width: 50%;
+        left: -100%;
+        flex-direction: column;
+        background: $Bg3;
+        top: 0;
+        align-items: center;
+        padding: 50px 0;
+        z-index: 9;
+        min-width: 300px;
+        ul {
+            flex-direction: column;
+        }
+    }
+    .navToggle {
+        display: flex;
+    }
+    nav .NavGet {
+        left: 0;
+    }
+}
+@media (max-width: 455px) {
+    .Title {
+        font-size: 32px;
+    }
+    .DiscTitle {
+        text-align: center;
+    }
+    .CommunityBlock {
+        padding: 0 8px;
+        h1 {
+            font-size: 26px;
+        }
+        .CommunityBlock p {
+            font-size: 12px;
+        }
+    }
+    .SectionSplitter .WelcomeSide {
+        h1 {
+            font-size: 48px;
+            line-height: unset;
+        }
+        p {
+            font-size: 16px;
+        }
+        .StarterButtons {
+            flex-direction: column;
+            button {
+                width: 300px;
+            }
+        }
+    }
+}

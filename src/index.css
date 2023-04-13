@@ -75,3 +75,101 @@ img {
   user-select: none;
   pointer-events: none;
 }
+
+@media (max-width: 1065px) {
+  .g-6 {
+    width: 100%;
+  }
+  .Starter {
+    height: auto;
+  }
+  .SectionSplitter {
+    height: auto;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .SectionSplitter .WelcomeSide {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 805px) {
+  .FilterSwap {
+    justify-content: center;
+  }
+  .FRow {
+    justify-content: center;
+  }
+}
+@media (max-width: 780px) {
+  .Footer .contentContainer {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .Footer .contentContainer .FCol {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 680px) {
+  .contentContainer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  nav .contentContainer {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    left: -100%;
+    flex-direction: column;
+    background: #0a0a0a;
+    top: 0;
+    align-items: center;
+    padding: 50px 0;
+    z-index: 9;
+    min-width: 300px;
+  }
+  nav .contentContainer ul {
+    flex-direction: column;
+  }
+  .navToggle {
+    display: flex;
+  }
+  nav .NavGet {
+    left: 0;
+  }
+}
+@media (max-width: 455px) {
+  .Title {
+    font-size: 32px;
+  }
+  .DiscTitle {
+    text-align: center;
+  }
+  .CommunityBlock {
+    padding: 0 8px;
+  }
+  .CommunityBlock h1 {
+    font-size: 26px;
+  }
+  .CommunityBlock .CommunityBlock p {
+    font-size: 12px;
+  }
+  .SectionSplitter .WelcomeSide h1 {
+    font-size: 48px;
+    line-height: unset;
+  }
+  .SectionSplitter .WelcomeSide p {
+    font-size: 16px;
+  }
+  .SectionSplitter .WelcomeSide .StarterButtons {
+    flex-direction: column;
+  }
+  .SectionSplitter .WelcomeSide .StarterButtons button {
+    width: 300px;
+  }
+}

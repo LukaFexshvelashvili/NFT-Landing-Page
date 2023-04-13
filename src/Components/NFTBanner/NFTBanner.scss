@@ -1,7 +1,15 @@
 @import "../../main/Color.scss";
 .NFTBanner {
     position: relative;
-    height: 490px;
+    padding-bottom: 50px;
+    max-width: 370px;
+    width: 100%;
+    .ImageS {
+        img {
+            max-width: 370px;
+            width: 100%;
+        }
+    }
     .InfoS {
         margin-top: 6px;
         display: flex;

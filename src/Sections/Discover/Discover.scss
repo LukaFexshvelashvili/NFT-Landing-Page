@@ -13,9 +13,12 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
     .FRow {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         gap: 15px;
     }
 }

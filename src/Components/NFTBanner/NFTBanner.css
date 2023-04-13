@@ -1,6 +1,12 @@
 .NFTBanner {
   position: relative;
-  height: 490px;
+  padding-bottom: 50px;
+  max-width: 370px;
+  width: 100%;
+}
+.NFTBanner .ImageS img {
+  max-width: 370px;
+  width: 100%;
 }
 .NFTBanner .InfoS {
   margin-top: 6px;

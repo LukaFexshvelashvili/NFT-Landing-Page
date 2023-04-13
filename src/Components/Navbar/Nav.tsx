@@ -1,12 +1,18 @@
+import { useState } from "react";
 import "./Nav.css";
 interface Anim {
   Anims: number;
 }
 
 export default function Nav({ Anims }: Anim) {
+  const [Nav, setNav] = useState<boolean>(false);
   return (
     <nav>
-      <div className={`contentContainer${Anims ? " anim1" : ""}`}>
+      <div
+        className={`contentContainer${Anims ? " anim1" : ""}${
+          Nav ? " NavGet" : ""
+        }`}
+      >
         <div className="LogoSide">Bravay</div>
         <ul>
           <li className="liActive">Home</li>
@@ -17,6 +23,14 @@ export default function Nav({ Anims }: Anim) {
         <div className="ButtonSide">
           <button className="DButton SignUp">Sign Up</button>
         </div>
+      </div>
+      <div
+        className={`navToggle${Nav ? " navToggleActive" : ""}`}
+        onClick={() => setNav(!Nav)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </nav>
   );

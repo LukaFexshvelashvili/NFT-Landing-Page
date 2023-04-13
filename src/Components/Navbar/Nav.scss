@@ -6,7 +6,7 @@ nav {
     .contentContainer {
         display: flex;
         justify-content: space-between;
-        transition: 1s;
+        transition: transfrom 1s, left 0.5s;
         .LogoSide {
             font-family: main_bold;
             letter-spacing: 1px;
@@ -56,6 +56,50 @@ nav {
             button {
                 font-size: 16px;
             }
+        }
+    }
+}
+
+.navToggle {
+    position: fixed;
+    background: $Bg3;
+    top: 20px;
+    right: 20px;
+    height: 60px;
+    aspect-ratio: 1;
+    display: none;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 65%;
+        border-radius: 5px;
+        background: $MainColor;
+        transition: 0.2s;
+        &:nth-child(1) {
+            transform: translateY(-11px);
+        }
+        &:nth-child(3) {
+            transform: translateY(11px);
+        }
+    }
+}
+.navToggleActive {
+    span {
+        &:nth-child(1) {
+            transform: translateY(0) rotate(45deg);
+        }
+        &:nth-child(2) {
+            opacity: 0;
+        }
+        &:nth-child(3) {
+            transform: translateY(0) rotate(-45deg);
         }
     }
 }
