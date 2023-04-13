@@ -1,5 +1,5 @@
 import "./Starter.css";
-import NFTImage from "../../Images/Background/BgNFT.png";
+import NFTImage from "../../Images/Background/BgNFT.webp";
 interface Anim {
   Anims: number;
 }

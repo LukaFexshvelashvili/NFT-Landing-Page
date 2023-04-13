@@ -1,11 +1,11 @@
-import NFT1 from "../Images/NFTs/Posters/NFT1.png";
-import NFT2 from "../Images/NFTs/Posters/NFT2.png";
-import NFT3 from "../Images/NFTs/Posters/NFT3.png";
-import NFT4 from "../Images/NFTs/Posters/NFT4.png";
-import NFT5 from "../Images/NFTs/Posters/NFT5.png";
-import NFT6 from "../Images/NFTs/Posters/NFT6.png";
-import NFT7 from "../Images/NFTs/Posters/NFT7.png";
-import NFT8 from "../Images/NFTs/Posters/NFT8.png";
+import NFT1 from "../Images/NFTs/Posters/NFT1.webp";
+import NFT2 from "../Images/NFTs/Posters/NFT2.webp";
+import NFT3 from "../Images/NFTs/Posters/NFT3.webp";
+import NFT4 from "../Images/NFTs/Posters/NFT4.webp";
+import NFT5 from "../Images/NFTs/Posters/NFT5.webp";
+import NFT6 from "../Images/NFTs/Posters/NFT6.webp";
+import NFT7 from "../Images/NFTs/Posters/NFT7.webp";
+import NFT8 from "../Images/NFTs/Posters/NFT8.webp";
 
 const NFTs = [
   {

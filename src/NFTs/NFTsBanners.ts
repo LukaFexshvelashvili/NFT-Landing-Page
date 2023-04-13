@@ -1,12 +1,12 @@
-import NFT1B from "../Images/NFTs/Banners/NFTB1.png";
-import NFT2B from "../Images/NFTs/Banners/NFTB2.png";
-import NFT3B from "../Images/NFTs/Banners/NFTB3.png";
-import NFT4B from "../Images/NFTs/Banners/NFTB4.png";
-import NFT5B from "../Images/NFTs/Banners/NFTB5.png";
-import NFT6B from "../Images/NFTs/Banners/NFTB6.png";
-import NFT7B from "../Images/NFTs/Banners/NFTB7.png";
-import NFT8B from "../Images/NFTs/Banners/NFTB8.png";
-import NFT9B from "../Images/NFTs/Banners/NFTB9.png";
+import NFT1B from "../Images/NFTs/Banners/NFTB1.webp";
+import NFT2B from "../Images/NFTs/Banners/NFTB2.webp";
+import NFT3B from "../Images/NFTs/Banners/NFTB3.webp";
+import NFT4B from "../Images/NFTs/Banners/NFTB4.webp";
+import NFT5B from "../Images/NFTs/Banners/NFTB5.webp";
+import NFT6B from "../Images/NFTs/Banners/NFTB6.webp";
+import NFT7B from "../Images/NFTs/Banners/NFTB7.webp";
+import NFT8B from "../Images/NFTs/Banners/NFTB8.webp";
+import NFT9B from "../Images/NFTs/Banners/NFTB9.webp";
 
 const NFTsBanners = [
   {
